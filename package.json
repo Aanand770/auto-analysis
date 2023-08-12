@@ -1,0 +1,37 @@
+{
+  "name": "auto-analysis",
+  "version": "1.0.8",
+  "description": "auto-analysis is an npm package that provides a convenient solution to process XML test results and generate a PDF document presenting a tabular analysis of failed assertions. It is designed to be used through the command-line interface and is intended to simplify the analysis and sharing of XML test results in a clear and well-structured PDF format.",
+  "main": "index.js",
+  "bin": {
+    "auto-analysis": "./auto-analysis"
+  },
+  "scripts": {
+    "start": "auto-analysis"
+  },
+  "dependencies": {
+    "dom-parser": "^0.1.1",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.31",
+    "path": "^0.12.7",
+    "pdfkit": "^0.12.3",
+    "xmldom": "^0.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aanand770/auto-analysis.git"
+  },
+  "keywords": [
+    "auto-analysis",
+    "xml",
+    "report",
+    "analysis",
+    "Analysis"
+  ],
+  "author": "Anand Bohara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aanand770/auto-analysis/issues"
+  },
+  "homepage": "https://github.com/Aanand770/auto-analysis#readme"
+}
