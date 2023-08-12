@@ -13,7 +13,7 @@ npm install auto-analysis
 ## Usage
 
 ```
-node index.js <path_to_xml_file> <output_directory>
+npx auto-analysis <path_to_xml_file> <output_directory>
 ```
 
 Replace `<path_to_xml_file>` with the path to the XML file containing test results and `<output_directory>` with the directory where the generated PDF should be saved.
